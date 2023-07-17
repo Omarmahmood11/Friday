@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="mt-4">
+  <h1>{{ exercise.name }}</h1>
+  {{ exercise.description|safe }}
+</div>
+{% endblock %}

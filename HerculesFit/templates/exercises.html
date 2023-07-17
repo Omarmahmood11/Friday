@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Voila! Your Custom Workout is Here!</h1>
+<div class="list-group">
+{% for exercise in exercises %}
+    {% if exercise.description %}
+        <a href="{{ url_for('exercise', exercise_id=exercise.id) }}" class="list-group-item list-group-item-action">{{ exercise.name }}</a>
+    {% else %}
+        <li class="list-group-item">{{ exercise.name }}</li>
+    {% endif %}
+{% endfor %}
+</div>
+{% endblock %}

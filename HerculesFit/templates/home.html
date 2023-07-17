@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Welcome! What would you like to work on today?</h1>
+<form method="POST" onsubmit="startGenerating()">
+    {% for category in categories %}
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="{{ category.id }}" id="{{ category.id }}" name="category">
+        <label class="form-check-label" for="{{ category.id }}">
+            {{ category.name }}
+        </label>
+    </div>
+    {% endfor %}
+    <button type="submit" class="btn btn-primary">Generate Workout</button>
+</form>
+<p id="generating" style="display:none;">Hold on... Generating workout...</p>
+
+<script>
+function startGenerating() {
+    document.getElementById("generating").style.display = "block";
+}
+</script>
+{% endblock %}
