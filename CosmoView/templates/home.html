@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="mt-4 text-center">
+    <h3 class="mb-4">{{ apod.title }}</h3>
+    <img src="{{ apod.url }}" alt="{{ apod.title }}" class="img-fluid rounded">
+    <p class="mt-4">{{ apod.explanation }}</p>
+</div>
+{% endblock %}
