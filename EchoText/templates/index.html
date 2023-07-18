@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Echo-Wizard</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-r from-blue-900 to-black min-h-screen flex items-center justify-center">
+  <div class="bg-white rounded-lg shadow-lg p-10 w-full max-w-xl">
+    <h1 class="text-3xl font-bold mb-2">Echo-Wizard</h1>
+    <p class="text-gray-600 mb-8">We turn your spoken gibberish into written gibberish.</p>
+    <form method="POST" enctype="multipart/form-data" class="space-y-6">
+      <div>
+        <label class="block text-sm font-medium text-gray-700">
+          Select File
+        </label>
+        <div class="mt-1">
+          <input type="file" id="file" name="file" class="py-3 px-4 border border-gray-300 rounded-md shadow-sm text-sm leading-4 font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+        </div>
+      </div>
+      <div>
+        <button type="submit" class="inline-flex items-center px-6 py-3 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+          Transcribe
+        </button>
+      </div>
+    </form>
+    {% if transcription %}
+    <div class="mt-5">
+      <h2 class="text-2xl font-bold">Transcription</h2>
+      <p class="mt-2 text-gray-500">{{ transcription }}</p>
+    </div>
+    {% endif %}
+  </div>
+</body>
+</html>
