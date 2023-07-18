@@ -16,15 +16,17 @@ Greetings, fellow tech enthusiasts! This repository is a showcase of my passion 
 
 Explore the following projects within the Friday repository:
 
-1. **Credit Card Fraud Detection**: A system that leverages AI algorithms to detect fraudulent transactions and ensure financial security.
+1. **Echo Text**: A speech-to-text conversion system that's as reliable as a Greek nymph. Just like the nymph Echo from Greek mythology, our system repeats back what it hears. But unlike Echo, we write it down for you! 
 
-2. **Stock Price Prediction**: An analysis-driven project that utilizes historical data and machine learning algorithms to predict stock price movements.
+2. **HerculesFit**: A personalized fitness recommendation app that provides custom workouts based on selected fitness categories, built using Flask and the wger Workout Manager API.
 
-3. **HerculesFit**: A personalized fitness recommendation app that provides custom workouts based on selected fitness categories, built using Flask and the wger Workout Manager API.
+3. **Stock Price Prediction**: An analysis-driven project that utilizes historical data and machine learning algorithms to predict stock price movements.
 
 4. **CosmoView**: A daily glimpse into the cosmos! This Flask application presents a spectacular view of the universe using NASA's Astronomy Picture of the Day API.
 
 5. **Predictive Analysis of Climate Trends in India**: A comprehensive data analysis notebook exploring the patterns and predicting future climate scenarios in India.
+
+6. **Credit Card Fraud Detection**: A system that leverages AI algorithms to detect fraudulent transactions and ensure financial security.
 
 These projects highlight my dedication to data-driven problem-solving and demonstrate the power of utilizing advanced algorithms and technologies for practical applications.
 
