@@ -6,12 +6,19 @@ Welcome to Echo Text, a speech-to-text conversion system that's as reliable as a
 
 Echo Text is a web application that allows users to upload audio files and transcribes them into text. It's perfect for those moments when you're too lazy to write down what you've said, or when you've spoken some profound gibberish that you want to immortalize in written form.
 
+## Technologies Used
+
+Echo Text is built with a cocktail of technologies that would make any tech enthusiast swoon:
+
+- **Python**: The backbone of our application. It's like the Zeus of our Greek mythology here.
+- **Flask**: Our trusty sidekick, handling all the web server action.
+- **SpeechRecognition**: The real hero, turning your spoken words into written text.
+- **HTML/CSS**: The unsung heroes, making everything look pretty. We've used Tailwind CSS for that extra flair.
+
 ## Features
 
 - Upload audio files
 - Transcribe audio to text
-- Beautiful and responsive UI
-- Humorous yet professional tone
 
 ## Installation
 
