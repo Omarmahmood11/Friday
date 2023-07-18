@@ -38,12 +38,10 @@ To run the application, execute the following command:
 python app.py
 ```
 Then, open your web browser and navigate to http://localhost:5000.
-## License
-
-This project is licensed under the MIT License.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-## MIT
+
+This project is licensed under the MIT License.
