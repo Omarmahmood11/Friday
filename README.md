@@ -1,7 +1,5 @@
 # Friday
 
-Welcome to the Friday repository on my GitHub! This repository is a collection of my personal projects developed in my free time. These projects focus on leveraging machine learning, data-driven insights, and some web development fun. Let's dive in and explore the projects!
-
 ## Table of Contents
 
 - [Introduction](#introduction)
