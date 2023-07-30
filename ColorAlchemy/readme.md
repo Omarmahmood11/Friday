@@ -10,7 +10,7 @@ To begin your colorization quest with ColorAlchemy, follow these simple steps:
 
 1. Clone the repository:
    ```shell
-   git clone https://github.com/YourUsername/ColorAlchemy.git
+   git clone https://github.com/Omarmahmood11/ColorAlchemy.git
    ```
 
 2. Install the requirements:
